@@ -1,0 +1,5 @@
+[Running] go run "c:\Work\IT\geektime\cloud_native\myrepo\geektime-cncamp\module1\1.1.go"
+[I am stupid and weak]
+[I am smart and strong]
+
+[Done] exited with code=0 in 3.749 seconds

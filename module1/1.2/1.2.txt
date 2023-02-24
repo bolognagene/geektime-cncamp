@@ -1,0 +1,43 @@
+[Running] go run "c:\Work\IT\geektime\cloud_native\myrepo\geektime-cncamp\module1\1.2\main.go"
+messages channel is null...
+Write data into messages channel: 1
+Write data into messages channel: 2
+            Read data from messages channel: 2
+Write data into messages channel: 3
+messages channel is null...
+Write data into messages channel: 4
+            Read data from messages channel: 4
+Write data into messages channel: 5
+messages channel is null...
+Write data into messages channel: 6
+            Read data from messages channel: 6
+Write data into messages channel: 7
+messages channel is null...
+Write data into messages channel: 8
+            Read data from messages channel: 8
+Write data into messages channel: 9
+messages channel is null...
+Write data into messages channel: 10
+            Read data from messages channel: 10
+Write data into messages channel: 11
+messages channel is null...
+Write data into messages channel: 12
+            Read data from messages channel: 12
+Write data into messages channel: 13
+messages channel is null...
+Write data into messages channel: 14
+            Read data from messages channel: 14
+Write data into messages channel: 15
+messages channel is null...
+Write data into messages channel: 16
+            Read data from messages channel: 16
+Write data into messages channel: 17
+messages channel is null...
+Write data into messages channel: 18
+            Read data from messages channel: 18
+Write data into messages channel: 19
+messages channel is null...
+Write data into messages channel: 20
+main process exit!
+
+[Done] exited with code=0 in 21.346 seconds
