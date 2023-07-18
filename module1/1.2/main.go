@@ -20,6 +20,8 @@ func main() {
 	}()
 
 	// consumer
+	// Wait for 1 sec to get the data from producer,
+	// after test, it can just read half data from producer
 	go func() {
 		ticker1 := time.NewTicker(1 * time.Second)
 		for _ = range ticker1.C {
@@ -32,6 +34,15 @@ func main() {
 			}
 		}
 	}()
+
+	// Consumer
+	// Use this function to get all data from producer
+	/*go func() {
+		for a := range messages {
+			fmt.Printf("            Read data from messages channel: %d\n", a)
+		}
+
+	}()*/
 
 	time.Sleep(time.Second * 20)
 	fmt.Println("main process exit!")
